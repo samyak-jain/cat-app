@@ -1,0 +1,60 @@
+body, html {
+    height: 100%;
+}
+
+.main {
+    background: #eeeeee;
+    max-width: 700px;
+    max-height: 600px;
+    border-radius: 50px;
+}
+
+.border-between > [class*='col-']:before {
+    background: #e3e3e3;
+    bottom: 0;
+    content: " ";
+    left: 0;
+    position: absolute;
+    width: 1px;
+    top: 0;
+}
+
+.border-between > [class*='col-']:first-child:before {
+    display: none;
+}
+
+.vertical-center {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.header {
+
+    h1 {
+        color: chartreuse;
+    }
+}
+
+.row {
+    margin: 20px 10px 10px;
+}
+
+.container:first-child {
+
+    h2 {
+        margin: 10px;
+        color: beige;
+    }
+}
+
+.container {
+    position: relative;
+}
+
+.head-color {
+    margin-top: 15px;
+    background: cadetblue;
+    border-radius: 50px;
+    top: 0;
+}

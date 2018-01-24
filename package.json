@@ -3,6 +3,7 @@
     "@alrra/travis-scripts": "^3.0.1",
     "apache-server-configs": "2.15.0",
     "archiver": "^2.1.0",
+    "babel-cli": "^6.26.0",
     "babel-core": "^6.26.0",
     "babel-polyfill": "^6.26.0",
     "babel-preset-env": "^1.6.1",
@@ -56,5 +57,7 @@
     "type": "git",
     "url": "https://github.com/samyak-jain/cat-app.git"
   },
-  "dependencies": {}
+  "dependencies": {
+    "gulp-load-plugins": "^1.5.0"
+  }
 }
